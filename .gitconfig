@@ -1,0 +1,15 @@
+[alias]
+        track = ![[ $(git config "branch.$(git symbolic-ref --short HEAD).merge") = '' ]] && git push -u origin $(git symbolic-ref --short HEAD) || git push
+[credential]
+	helper = osxkeychain
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+	name = Rhys Davies
+	email = rdavies@neighborly.com
+[core]
+	editor = nvim
+[diff "sopsdiffer"]
+	textconv = sops -d
+[mergetool]
+	path = nvim
