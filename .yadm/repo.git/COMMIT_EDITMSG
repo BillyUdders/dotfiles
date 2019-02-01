@@ -1,4 +1,4 @@
-
+Adding in the bootstrap and the Brewfile 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
@@ -6,6 +6,8 @@
 # Your branch is up to date with 'origin/master'.
 #
 # Changes to be committed:
+#	modified:   .config/fish/fish_variables
+#	modified:   .config/nvim/init.vim
 #	new file:   .yadm/bootstrap
 #	new file:   .yadm/repo.git/COMMIT_EDITMSG
 #	new file:   .yadm/repo.git/HEAD
@@ -33,11 +35,5 @@
 #	new file:   .yadm/repo.git/packed-refs
 #	new file:   .yadm/repo.git/refs/remotes/origin/master
 #	new file:   Brewfile
-#
-# Changes not staged for commit:
-#	modified:   .config/fish/fish_variables
-#	modified:   .config/nvim/init.vim
-#	modified:   .yadm/repo.git/COMMIT_EDITMSG
-#	modified:   .yadm/repo.git/index
 #
 # Untracked files not listed
