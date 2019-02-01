@@ -15,4 +15,6 @@ if [ "$system_type" = "Darwin" ]; then
     brew bundle --global
   fi
 
+  fisher >/dev/null 
+
 fi

@@ -26,7 +26,9 @@ let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']
 colorscheme iceberg 
 hi Visual cterm=reverse ctermbg=NONE
 set termguicolors
-set number
+
+" Text formatting
+set number relativenumber
 set cursorline
 set noshowmode
 set nowrap
@@ -57,19 +59,16 @@ nnoremap <silent> <leader>gl :Commits<CR>
 nnoremap <silent> <leader>ga :BCommits<CR>
 nnoremap <silent> <leader>ft :Filetypes<CR>
 
-" This is the default extra key bindings
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-" In Neovim, you can set up fzf window using a Vim command
 let $FZF_DEFAULT_COMMAND = 'ag --hidden --path-to-ignore ~/.ignore -l -g ""'
 let g:fzf_layout = { 'window': 'enew' }
 let g:fzf_layout = { 'window': '-tabnew' }
 let g:fzf_layout = { 'window': '10split enew' }
 
-" Customize fzf colors to match your color scheme
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
   \ 'bg':      ['bg', 'Normal'],
@@ -85,10 +84,6 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-" Enable per-command history.
-" CTRL-N and CTRL-P will be automatically bound to next-history and
-" previous-history instead of down and up. If you don't like the change,
-" explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
 " Some aliases for typoists
