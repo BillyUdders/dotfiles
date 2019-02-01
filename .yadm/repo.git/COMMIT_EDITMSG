@@ -1,4 +1,4 @@
-Adding in the bootstrap and the Brewfile 
+Removing helm, not really necessary
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
@@ -6,34 +6,25 @@ Adding in the bootstrap and the Brewfile
 # Your branch is up to date with 'origin/master'.
 #
 # Changes to be committed:
-#	modified:   .config/fish/fish_variables
-#	modified:   .config/nvim/init.vim
-#	new file:   .yadm/bootstrap
-#	new file:   .yadm/repo.git/COMMIT_EDITMSG
-#	new file:   .yadm/repo.git/HEAD
-#	new file:   .yadm/repo.git/config
-#	new file:   .yadm/repo.git/description
-#	new file:   .yadm/repo.git/gc.log
-#	new file:   .yadm/repo.git/hooks/applypatch-msg.sample
-#	new file:   .yadm/repo.git/hooks/commit-msg.sample
-#	new file:   .yadm/repo.git/hooks/fsmonitor-watchman.sample
-#	new file:   .yadm/repo.git/hooks/post-update.sample
-#	new file:   .yadm/repo.git/hooks/pre-applypatch.sample
-#	new file:   .yadm/repo.git/hooks/pre-commit.sample
-#	new file:   .yadm/repo.git/hooks/pre-push.sample
-#	new file:   .yadm/repo.git/hooks/pre-rebase.sample
-#	new file:   .yadm/repo.git/hooks/pre-receive.sample
-#	new file:   .yadm/repo.git/hooks/prepare-commit-msg.sample
-#	new file:   .yadm/repo.git/hooks/update.sample
-#	new file:   .yadm/repo.git/index
-#	new file:   .yadm/repo.git/index.lock
-#	new file:   .yadm/repo.git/info/exclude
-#	new file:   .yadm/repo.git/info/refs
-#	new file:   .yadm/repo.git/logs/HEAD
-#	new file:   .yadm/repo.git/logs/refs/heads/master
-#	new file:   .yadm/repo.git/logs/refs/remotes/origin/master
-#	new file:   .yadm/repo.git/packed-refs
-#	new file:   .yadm/repo.git/refs/remotes/origin/master
-#	new file:   Brewfile
+#	deleted:    .helm/cache/archive/artifactory-7.3.1.tgz
+#	deleted:    .helm/cache/archive/cp-helm-charts-0.1.0.tgz
+#	deleted:    .helm/cache/archive/grafana-1.19.0.tgz
+#	deleted:    .helm/cache/archive/prometheus-7.4.5.tgz
+#	deleted:    .helm/plugins/helm-secrets
+#	deleted:    .helm/repository/cache/confluentinc-index.yaml
+#	deleted:    .helm/repository/cache/jfrog-index.yaml
+#	deleted:    .helm/repository/cache/local-index.yaml
+#	deleted:    .helm/repository/cache/stable-index.yaml
+#	deleted:    .helm/repository/local/blp-message-ingest-0.1.0.tgz
+#	deleted:    .helm/repository/local/index.yaml
+#	deleted:    .helm/repository/repositories.yaml
+#	modified:   .yadm/repo.git/COMMIT_EDITMSG
+#	modified:   .yadm/repo.git/index
+#	modified:   .yadm/repo.git/info/refs
+#	modified:   .yadm/repo.git/logs/HEAD
+#	modified:   .yadm/repo.git/logs/refs/heads/master
+#	modified:   .yadm/repo.git/logs/refs/remotes/origin/master
+#	modified:   .yadm/repo.git/packed-refs
+#	modified:   .yadm/repo.git/refs/remotes/origin/master
 #
 # Untracked files not listed

@@ -1,2 +1,3 @@
 0000000000000000000000000000000000000000 775ad3dc97c5878032277675c4c50030e7b2a2c4 Rhys Davies <rdavies@neighborly.com> 1548894913 -0800	commit (initial): Adding the initial changes to my master branch
 775ad3dc97c5878032277675c4c50030e7b2a2c4 e6685332198300de468050f46697beba89a3efd9 Rhys Davies <rdavies@neighborly.com> 1548993684 -0800	commit: Adding in the bootstrap and the Brewfile
+e6685332198300de468050f46697beba89a3efd9 bc52c6acd5fbd5fbc87ec7f658384902d621c6cc Rhys Davies <rdavies@neighborly.com> 1548993750 -0800	commit: Removing helm, not really necessary
