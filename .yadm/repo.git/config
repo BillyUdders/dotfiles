@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	ignorecase = true
+	precomposeunicode = true
+	sharedrepository = 0600
+	worktree = /Users/rhysdavies
+[receive]
+	denyNonFastforwards = true
+[status]
+	showUntrackedFiles = no
+[yadm]
+	managed = true
+[remote "origin"]
+        url = ssh://git@github.com/Rhysyrhysrhys/dotfiles.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

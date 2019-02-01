@@ -8,7 +8,6 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline' |  Plug 'vim-airline/vim-airline-themes'
-Plug 'arcticicestudio/nord-vim'
 Plug 'cocopon/iceberg.vim'
 
 call plug#end()
