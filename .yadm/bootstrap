@@ -15,6 +15,7 @@ if [ "$system_type" = "Darwin" ]; then
     brew bundle --global
   fi
 
-  fisher >/dev/null 
-
 fi
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
