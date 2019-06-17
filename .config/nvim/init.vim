@@ -2,6 +2,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'junegunn/vim-easy-align'
+Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips' 
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }

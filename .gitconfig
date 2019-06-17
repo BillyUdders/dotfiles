@@ -9,6 +9,7 @@
 	email = rdavies@neighborly.com
 [core]
 	editor = nvim
+	excludesfile = ~/.gitignore
 [diff "sopsdiffer"]
 	textconv = sops -d
 [mergetool]

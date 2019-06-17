@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/rhysdavies/Programming'
-let g:netrw_dirhist_2='/Users/rhysdavies/Programming/Kotlin/tradeweb-ingestor'
-let g:netrw_dirhist_3='/Users/rhysdavies/Programming/Kotlin/tradeweb-ingestor/gradle'
-let g:netrw_dirhist_4='/Users/rhysdavies/Programming/Kotlin/tradeweb-ingestor'
-let g:netrw_dirhist_5='/Users/rhysdavies/Programming/Kotlin/tradeweb-ingestor/gradle'
-let g:netrw_dirhist_6='/Users/rhysdavies/Programming/Kotlin/tradeweb-ingestor'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/rhysdavies/Downloads/akalib/java'
+let g:netrw_dirhist_2='/Users/rhysdavies/Programming/Ops/helm/data/charts/confluent-platform/charts'
+let g:netrw_dirhist_3='/Users/rhysdavies/Programming/Ops/helm/integration/charts/tradeweb-ingestor'
+let g:netrw_dirhist_4='/Users/rhysdavies/Programming/Ops/helm/integration/charts'
+let g:netrw_dirhist_5='/Users/rhysdavies/Programming/Ops/helm/integration/charts/tradeweb-ingestor'
+let g:netrw_dirhist_6='/Users/rhysdavies/Programming/Ops/helm/data/charts/confluent-platform/charts'
+let g:netrw_dirhist_7='/Users/rhysdavies/Programming/SQL/conductor-db/conductor/schemas/market/constraints'
+let g:netrw_dirhist_8='/Users/rhysdavies/Programming/SQL/conductor-db/conductor/schemas/market_offers/indexes'
