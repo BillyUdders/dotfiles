@@ -1,0 +1,122 @@
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew asdf
+brew autoconf
+brew automake
+brew awscli
+brew cask
+brew coreutils
+brew curl
+brew emacs
+brew exa
+brew fish
+brew fontconfig
+brew freetype
+brew fzf
+brew gdbm
+brew gettext
+brew glib
+brew gmp
+brew gnutls
+brew ilmbase
+brew imagemagick
+brew jemalloc
+brew jpeg
+brew jq
+brew kubernetes-cli
+brew libde265
+brew libevent
+brew libffi
+brew libheif
+brew libidn2
+brew libomp
+brew libpng
+brew libtasn1
+brew libtermkey
+brew libtiff
+brew libtool
+brew libunistring
+brew libuv
+brew libvterm
+brew libyaml
+brew little-cms2
+brew luajit
+brew mas
+brew msgpack
+brew neofetch
+brew neovim
+brew nettle
+brew oniguruma
+brew openexr
+brew openjpeg
+brew openssl
+brew p11-kit
+brew pcre
+brew pcre2
+brew pipenv
+brew python
+brew readline
+brew s-search
+brew screenresolution
+brew shared-mime-info
+brew sqlite
+brew telnet
+brew terminal-notifier
+brew the_silver_searcher
+brew trash-cli
+brew unbound
+brew unibilium
+brew unixodbc
+brew webp
+brew wget
+brew x265
+brew xz
+brew yadm
+brew zlib
+
+tap homebrew/bundle
+
+tap homebrew/cask-versions
+
+tap homebrew/command-not-found
+
+tap homebrew/services
+
+tap homebrew/cask
+cask discord
+cask gswitch
+cask kitty
+cask postico
+cask spotify
+
+tap caskroom/versions
+
+tap d12frosted/emacs-plus
+
+tap osx-cross/avr
+brew avr-binutils
+
+tap px4/px4
+
+tap rcmdnk/file
+brew brew-file
+
+tap wallix/awless
+brew awless
+
+# Other Cask applications
+cask firefox
+cask keybase
+cask postgres
+cask spectacle
+cask vlc
+
+# App Store applications
+appstore 682658836 com.apple.garageband10 (10.2.0)
+appstore 408981434 com.apple.iMovieApp (10.1.9)
+appstore 409183694 com.apple.iWork.Keynote (8.0.1)
+appstore 409203825 com.apple.iWork.Numbers (5.0.1)
+appstore 409201541 com.apple.iWork.Pages (7.0.1)
+appstore 595191960 com.fiplab.clipboard (1.9.2)
