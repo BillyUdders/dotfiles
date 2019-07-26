@@ -34,5 +34,3 @@ set -g theme_newline_cursor yes
 alias rm trash-put
 alias vim nvim
 source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
