@@ -10,6 +10,7 @@ Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline' |  Plug 'vim-airline/vim-airline-themes'
 Plug 'cocopon/iceberg.vim'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -22,6 +23,8 @@ let g:airline_detect_whitespace=0
 let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
 
 " General visual preferences
 colorscheme iceberg 
