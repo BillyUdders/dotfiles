@@ -31,6 +31,18 @@ set -g fish_prompt_pwd_dir_length 10
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
 
+if not functions -q fisher
+    set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
+    curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
+    fish -c fisher
+end
+
+kitty + complete setup fish | source
+
 alias rm trash-put
 alias vim nvim
-source ~/.asdf/asdf.fish
+
+# Base16 Shell
+  if status --is-interactive
+    eval sh /Users/rhys/.base16-manager/chriskempson/base16-shell/scripts/base16-rebecca.sh
+  end

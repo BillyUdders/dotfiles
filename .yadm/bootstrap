@@ -10,9 +10,26 @@ if [ "$system_type" = "Darwin" ]; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi
 
-  if [ -f "$HOME/.Brewfile" ]; then
+  # look for a brewfile and bootstrap brew
+  if [ -f "$HOME/.config/brewfile/Brewfile" ]; then
     echo "Updating homebrew bundle"
     brew bundle --global
+  fi
+
+  # if we have fish make it the default shell
+  if command -v fish >/dev/null 2>&1; then
+    echo "Setting Fish as default shell"
+    echo `which fish` | sudo tee -a /etc/shells
+    chsh -s `which fish`
+  fi
+ 
+  # unified color theme hooks
+  if command -v base16-manager >/dev/null 2>&1; then
+    echo "Setting up system-wide colour theming"
+    base16-manager install chriskempson/base16-shell
+    base16-manager install chriskempson/base16-vim
+    base16-manager install kdrag0n/base16-kitty
+    base16-manager set rebecca
   fi
 
 fi

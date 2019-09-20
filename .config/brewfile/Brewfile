@@ -2,11 +2,13 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew adns
 brew allegro
 brew asdf
 brew autoconf
 brew automake
 brew awscli
+brew brew-file
 brew cask
 brew coreutils
 brew curl
@@ -20,8 +22,10 @@ brew freetype
 brew fzf
 brew gdbm
 brew gettext
+brew git
 brew glib
 brew gmp
+brew gnupg
 brew gnutls
 brew icu4c
 brew ilmbase
@@ -29,13 +33,15 @@ brew imagemagick
 brew jemalloc
 brew jpeg
 brew jq
-brew kubectx
-brew kubernetes-cli
+brew libassuan
 brew libde265
 brew libevent
 brew libffi
+brew libgcrypt
+brew libgpg-error
 brew libheif
 brew libidn2
+brew libksba
 brew libogg
 brew libomp
 brew libpng
@@ -44,6 +50,7 @@ brew libtermkey
 brew libtiff
 brew libtool
 brew libunistring
+brew libusb
 brew libuv
 brew libvorbis
 brew libvterm
@@ -56,20 +63,22 @@ brew neofetch
 brew neovim
 brew nettle
 brew node
+brew npth
 brew oniguruma
 brew openexr
 brew openjpeg
 brew openssl
+brew openssl@1.1
 brew opus
 brew opusfile
 brew p11-kit
 brew pcre
 brew pcre2
 brew physfs
+brew pinentry
 brew pipenv
 brew python
 brew readline
-brew s-search
 brew screenresolution
 brew shared-mime-info
 brew sqlite
@@ -78,7 +87,6 @@ brew terminal-notifier
 brew the_silver_searcher
 brew theora
 brew trash-cli
-brew typescript
 brew unbound
 brew unibilium
 brew unixodbc
@@ -91,48 +99,17 @@ brew yarn
 brew zlib
 
 tap homebrew/bundle
-
-tap homebrew/cask-versions
-
-tap homebrew/command-not-found
-
 tap homebrew/services
-
 tap homebrew/cask
+
 cask discord
 cask gswitch
 cask kitty
 cask postico
 cask spectacle
 cask visual-studio-code
-
-tap caskroom/versions
-
-tap d12frosted/emacs-plus
-
-tap osx-cross/avr
-brew avr-binutils
-
-tap px4/px4
-
-tap rcmdnk/file
-brew brew-file
-
-tap wallix/awless
-brew awless
-
-# Other Cask applications
 cask firefox
 cask keybase
 cask postgres
 cask processing
 cask spotify
-cask vlc
-
-# App Store applications
-appstore 595191960 CopyClip (1.9.2)
-appstore 682658836 GarageBand (10.2.0)
-appstore 408981434 iMovie (10.1.9)
-appstore 409183694 Keynote (8.0.1)
-appstore 409203825 Numbers (5.0.1)
-appstore 409201541 Pages (7.0.1)

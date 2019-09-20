@@ -9,8 +9,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline' |  Plug 'vim-airline/vim-airline-themes'
-Plug 'cocopon/iceberg.vim'
 Plug 'w0rp/ale'
+Plug 'chriskempson/base16-vim'
 
 call plug#end()
 
@@ -27,7 +27,7 @@ let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
 
 " General visual preferences
-colorscheme iceberg 
+source ~/.config/nvim/colorscheme.vim
 hi Visual cterm=reverse ctermbg=NONE
 set termguicolors
 
