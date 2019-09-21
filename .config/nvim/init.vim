@@ -1,16 +1,14 @@
 " For plugins: ~/.local/share/nvim/plugged
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'junegunn/vim-easy-align'
 Plug 'sheerun/vim-polyglot'
 Plug 'SirVer/ultisnips' 
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline' |  Plug 'vim-airline/vim-airline-themes'
-Plug 'w0rp/ale'
 Plug 'chriskempson/base16-vim'
+Plug 'neomake/neomake'
 
 call plug#end()
 
@@ -23,8 +21,11 @@ let g:airline_detect_whitespace=0
 let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '⚠️'
+
+
+" Full config Neomake all the things
+call neomake#configure#automake('nrwi', 500)
+let g:neomake_open_list = 2
 
 " General visual preferences
 source ~/.config/nvim/colorscheme.vim
@@ -40,8 +41,10 @@ set textwidth=100
 set formatoptions+=cqln1j
 set expandtab
 
-" Completion
-let g:deoplete#enable_at_startup = 1
+" Ultisnips tabs 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Fzf 
 let mapleader = "\<Space>"

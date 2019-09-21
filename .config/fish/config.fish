@@ -43,6 +43,7 @@ alias rm trash-put
 alias vim nvim
 
 # Base16 Shell
-  if status --is-interactive
-    eval sh /Users/rhys/.base16-manager/chriskempson/base16-shell/scripts/base16-rebecca.sh
-  end
+if status --is-interactive
+    set BASE16_SHELL "$HOME/.base16-manager/chriskempson/base16-shell/"
+    source "$BASE16_SHELL/profile_helper.fish"
+end

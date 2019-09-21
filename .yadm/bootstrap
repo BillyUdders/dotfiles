@@ -3,7 +3,12 @@
 system_type=$(uname -s)
 
 if [ "$system_type" = "Darwin" ]; then
-
+  
+  # if we have fonts get them to the greek
+  if [ -d "$~/.config/fonts/" ]; then
+     cp ~/.config/fonts/*.ttf /Library/Fonts/
+  fi
+  
   # install homebrew if it's missing
   if ! command -v brew >/dev/null 2>&1; then
     echo "Installing homebrew"

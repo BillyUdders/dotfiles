@@ -1,13 +1,19 @@
-
 # tap repositories and their packages
-
+tap chrokh/tap
+tap homebrew/bundle
+tap homebrew/cask
 tap homebrew/core
+tap homebrew/services
+tap rcmdnk/file
+
+# Other Cask applications
 brew adns
 brew allegro
 brew asdf
 brew autoconf
 brew automake
 brew awscli
+brew base16-manager
 brew brew-file
 brew cask
 brew coreutils
@@ -79,6 +85,7 @@ brew pinentry
 brew pipenv
 brew python
 brew readline
+brew ruby
 brew screenresolution
 brew shared-mime-info
 brew sqlite
@@ -97,19 +104,18 @@ brew xz
 brew yadm
 brew yarn
 brew zlib
-
-tap homebrew/bundle
-tap homebrew/services
-tap homebrew/cask
-
 cask discord
-cask gswitch
-cask kitty
-cask postico
-cask spectacle
-cask visual-studio-code
 cask firefox
+cask gswitch
 cask keybase
+cask kitty
 cask postgres
+cask postico
 cask processing
+cask spectacle
 cask spotify
+cask visual-studio-code
+
+# App Store applications
+appstore 409201541 Pages (8.1)
+appstore 595191960 CopyClip (1.9.3)
