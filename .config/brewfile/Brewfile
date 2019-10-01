@@ -1,20 +1,13 @@
-# tap repositories and their packages
-tap chrokh/tap
-tap homebrew/bundle
-tap homebrew/cask
-tap homebrew/core
-tap homebrew/services
-tap rcmdnk/file
 
-# Other Cask applications
+# tap repositories and their packages
+
+tap homebrew/core
 brew adns
 brew allegro
 brew asdf
 brew autoconf
 brew automake
 brew awscli
-brew base16-manager
-brew brew-file
 brew cask
 brew coreutils
 brew curl
@@ -104,18 +97,37 @@ brew xz
 brew yadm
 brew yarn
 brew zlib
-cask discord
+
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+cask font-fira-code
+
+tap homebrew/services
+
+tap homebrew/cask
+cask dashlane
 cask firefox
-cask gswitch
 cask keybase
-cask kitty
 cask postgres
-cask postico
 cask processing
 cask spectacle
-cask spotify
 cask visual-studio-code
 
+tap chrokh/tap
+brew base16-manager
+
+tap rcmdnk/file
+brew brew-file
+
+# Other Cask applications
+cask discord
+cask gswitch
+cask kitty
+cask postico
+cask slack
+cask spotify
+
 # App Store applications
-appstore 409201541 Pages (8.1)
-appstore 595191960 CopyClip (1.9.3)
+appstore 409201541 com.apple.iWork.Pages (8.1)
+appstore 595191960 com.fiplab.clipboard (1.9.3)

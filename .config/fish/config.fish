@@ -37,13 +37,18 @@ if not functions -q fisher
     fish -c fisher
 end
 
-kitty + complete setup fish | source
-
-alias rm trash-put
-alias vim nvim
-
 # Base16 Shell
 if status --is-interactive
     set BASE16_SHELL "$HOME/.base16-manager/chriskempson/base16-shell/"
     source "$BASE16_SHELL/profile_helper.fish"
 end
+
+
+kitty + complete setup fish | source
+
+source /usr/local/etc/grc.fish
+
+alias rm trash-put
+alias vim nvim
+
+

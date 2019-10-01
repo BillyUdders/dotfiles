@@ -12,13 +12,12 @@ if [ "$system_type" = "Darwin" ]; then
   # install homebrew if it's missing
   if ! command -v brew >/dev/null 2>&1; then
     echo "Installing homebrew"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    curl -fsSL https://raw.github.com/rcmdnk/homebrew-file/install/install.sh |sh
   fi
 
   # look for a brewfile and bootstrap brew
   if [ -f "$HOME/.config/brewfile/Brewfile" ]; then
-    echo "Updating homebrew bundle"
-    brew bundle --global
+    brew-file install 
   fi
 
   # if we have fish make it the default shell

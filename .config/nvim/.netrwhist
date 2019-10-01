@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/Users/rhys/.config/fish'
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/rhys/Programming/Python/web/docker/web-base-node'
+let g:netrw_dirhist_5='/Users/rhys/Programming/Python/web/docker'
+let g:netrw_dirhist_4='/Users/rhys/Programming/Python/web/docker/web-base-python'
+let g:netrw_dirhist_3='/Users/rhys/.base16-manager/chriskempson/base16-vim/colors'
+let g:netrw_dirhist_2='/Users/rhys/.base16-manager/chriskempson/base16-vim'
+let g:netrw_dirhist_1='/Users/rhys/.base16-manager/chriskempson/base16-vim/colors'
+let g:netrw_dirhist_0='/Users/rhys/.base16-manager/chriskempson/base16-vim'
+let g:netrw_dirhist_9='/Users/rhys/.base16-manager/chriskempson'
+let g:netrw_dirhist_8='/Users/rhys/.base16-manager'
+let g:netrw_dirhist_7='/Users/rhys/Programming/Python/web/requirements'
