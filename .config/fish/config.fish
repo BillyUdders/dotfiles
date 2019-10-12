@@ -9,7 +9,7 @@ set -g theme_display_vagrant no
 set -g theme_display_docker_machine no
 set -g theme_display_k8s_context yes
 set -g theme_display_hg yes
-set -g theme_display_virtualenv no
+set -g theme_display_virtualenv yes
 set -g theme_display_ruby no
 set -g theme_display_user ssh
 set -g theme_display_hostname ssh
@@ -27,28 +27,28 @@ set -g theme_nerd_fonts no
 set -g theme_show_exit_status yes
 set -g default_user your_normal_user
 set -g theme_color_scheme terminal2-dark-black 
-set -g fish_prompt_pwd_dir_length 10 
+set -g fish_prompt_pwd_dir_length 20 
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
 
+# Turn off the prompt for virtualenv
+set -x VIRTUAL_ENV_DISABLE_PROMPT 1
+
+# Strap Fisher up in case we haven't installed our plugins
 if not functions -q fisher
     set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
     curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
     fish -c fisher
 end
 
-# Base16 Shell
-if status --is-interactive
-    set BASE16_SHELL "$HOME/.base16-manager/chriskempson/base16-shell/"
-    source "$BASE16_SHELL/profile_helper.fish"
-end
-
 
 kitty + complete setup fish | source
 
-source /usr/local/etc/grc.fish
+direnv hook fish | source
 
 alias rm trash-put
 alias vim nvim
-
-
+# Base16 Shell
+  if status --is-interactive
+    eval sh /Users/rhys/.base16-manager/chriskempson/base16-shell/scripts/base16-heetch.sh
+  end

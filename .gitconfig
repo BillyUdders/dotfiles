@@ -7,8 +7,6 @@
 	email = rhys.davies901@gmail.com
 [core]
 	editor = nvim
-	excludesfile = ~/.gitignore
-[diff "sopsdiffer"]
-	textconv = sops -d
+	excludesfile = ~/.gitignore_global
 [mergetool]
 	path = nvim

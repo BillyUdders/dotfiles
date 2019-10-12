@@ -1,17 +1,23 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export AWS_ACCESS_KEY_ID:AKIAR3LJFDBIZGCLYWYV
+SETUVAR --export AWS_SECRET_ACCESS_KEY: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
 SETUVAR --export CIRCLE_API_USER_TOKEN:2cf5c4dfeeda4ddc69d938be1e335bacddfb49e8
 SETUVAR --export EDITOR:nvim
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
 SETUVAR _fish_abbr__2D_:cd\x20\x2d
-SETUVAR _fish_abbr_add:kds\x20kubectl\x20describe\x20services
 SETUVAR _fish_abbr_bri:brew\x20install
 SETUVAR _fish_abbr_brs:brew\x20search
 SETUVAR _fish_abbr_bs:brew\x20search
 SETUVAR _fish_abbr_c:clear
-SETUVAR _fish_abbr_devdb:psql\x20\x2dh\x20dev\x2dnidata\x2ecn0b9ize39dz\x2eus\x2deast\x2d2\x2erds\x2eamazonaws\x2ecom\x20\x2dU\x20neighbor\x20conductor
+SETUVAR _fish_abbr_dclf:docker\x2dcompose\x20logs\x20\x2df
+SETUVAR _fish_abbr_dcn:docker\x2dcompose\x20down
+SETUVAR _fish_abbr_dco:docker\x2dcompose
+SETUVAR _fish_abbr_dcr:docker\x2dcompose\x20restart
+SETUVAR _fish_abbr_dcup:docker\x2dcompose\x20up
+SETUVAR _fish_abbr_dcupd:docker\x2dcompose\x20up\x20\x2dd
 SETUVAR _fish_abbr_fconf:fish_config
 SETUVAR _fish_abbr_ga:git\x20add\x20\x2e
 SETUVAR _fish_abbr_gaa:git\x20add\x20\x2d\x2dall\x20\x2e
@@ -36,8 +42,6 @@ SETUVAR _fish_abbr_grs:git\x20shortlog\x20\x2ds\x20\x2dn\x20\x2d\x2dall\x20\x2d\
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_gt:git\x20track
 SETUVAR _fish_abbr_gtd:git\x20log\x20\x2d\x2dtags\x20\x2d\x2dsimplify\x2dby\x2ddecoration\x20\x2d\x2dpretty\x3d\x22format\x3a\x25ai\x20\x25d\x22
-SETUVAR _fish_abbr_hda:helm\x20delete\x20\x28helm\x20ls\x20\x2d\x2dshort\x29
-SETUVAR _fish_abbr_hi:helm\x20install\x20\x2e
 SETUVAR _fish_abbr_hs:history\x20search
 SETUVAR _fish_abbr_kdel:kubectl\x20delete\x20pod
 SETUVAR _fish_abbr_kdp:kubectl\x20describe\x20pods
@@ -46,10 +50,6 @@ SETUVAR _fish_abbr_kgp:kubectl\x20get\x20pods
 SETUVAR _fish_abbr_kl:kubectl\x20logs
 SETUVAR _fish_abbr_klf:kubectl\x20logs\x20\x2d\x2dfollow
 SETUVAR _fish_abbr_l:exa\x20\x2dlahb\x20\x2d\x2dsort\x3dname\x20\x2d\x2dgit\x20\x2d\x2dgroup\x2ddirectories\x2dfirst
-SETUVAR _fish_abbr_npmu:npm\x20install\x20\x2dg\x20npm
-SETUVAR _fish_abbr_nvconf:vim\x20/Users/rhysdavies/\x2econfig/nvim/init\x2evim
-SETUVAR _fish_abbr_prodsql:psql\x20\x2dh\x20prod\x2dnidata\x2ecn0b9ize39dz\x2eus\x2deast\x2d2\x2erds\x2eamazonaws\x2ecom\x20\x2dU\x20s\x2dni\x2ddatauser\x20conductor
-SETUVAR _fish_abbr_spconf:vim\x20/Users/rhysdavies/\x2eSpaceVim\x2ed/init\x2etoml
 SETUVAR fish_color_autosuggestion:8e908c
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:00BF32

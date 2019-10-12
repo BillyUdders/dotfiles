@@ -22,8 +22,12 @@ let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']
 
+" Ultisnips tabs 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-" Full config Neomake all the things
+" Neomake all the things
 call neomake#configure#automake('nrwi', 500)
 let g:neomake_open_list = 2
 
@@ -41,10 +45,9 @@ set textwidth=100
 set formatoptions+=cqln1j
 set expandtab
 
-" Ultisnips tabs 
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" NERDTree 
+map <C-a> :NERDTreeToggle<CR>
+map <C-s> :NERDTreeFocus<CR>
 
 " Fzf 
 let mapleader = "\<Space>"
@@ -92,7 +95,7 @@ let g:fzf_colors =
   \ 'header':  ['fg', 'Comment'] }
 
 let g:fzf_history_dir = '~/.local/share/fzf-history'
-
+                
 " Some aliases for typoists
 command W w
 command Q q

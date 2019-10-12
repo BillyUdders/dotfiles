@@ -2,6 +2,6 @@ fischerling/plugin-wd
 oh-my-fish/theme-bobthefish
 franciscolourenco/done
 spacekookie/omf-color-manual
-reitzig/sdkman-for-fish
 barnybug/docker-fish-completion
-oh-my-fish/plugin-grc
+fishpkg/fish-spin
+daenney/pyenv

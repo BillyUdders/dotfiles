@@ -10,7 +10,9 @@ brew automake
 brew awscli
 brew cask
 brew coreutils
+brew csvkit
 brew curl
+brew direnv
 brew dumb
 brew emacs
 brew exa
@@ -76,14 +78,20 @@ brew pcre2
 brew physfs
 brew pinentry
 brew pipenv
+brew pkg-config
+brew pyenv
 brew python
+brew rbenv
 brew readline
 brew ruby
+brew ruby-build
 brew screenresolution
 brew shared-mime-info
+brew shellcheck
 brew sqlite
 brew telnet
 brew terminal-notifier
+brew tfenv
 brew the_silver_searcher
 brew theora
 brew trash-cli
@@ -108,10 +116,11 @@ tap homebrew/services
 tap homebrew/cask
 cask dashlane
 cask firefox
-cask keybase
-cask postgres
-cask processing
-cask spectacle
+cask java
+cask kitty
+cask postico
+cask slack
+cask spotify
 cask visual-studio-code
 
 tap chrokh/tap
@@ -123,10 +132,11 @@ brew brew-file
 # Other Cask applications
 cask discord
 cask gswitch
-cask kitty
-cask postico
-cask slack
-cask spotify
+cask keybase
+cask postgres
+cask processing
+cask spectacle
+cask sqlpro-for-sqlite
 
 # App Store applications
 appstore 409201541 com.apple.iWork.Pages (8.1)
