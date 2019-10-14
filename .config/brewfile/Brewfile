@@ -139,5 +139,5 @@ cask spectacle
 cask sqlpro-for-sqlite
 
 # App Store applications
-appstore 409201541 com.apple.iWork.Pages (8.1)
-appstore 595191960 com.fiplab.clipboard (1.9.3)
+appstore 595191960 CopyClip (1.9.3)
+appstore 409201541 Pages (8.2)

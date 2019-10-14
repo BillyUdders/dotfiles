@@ -41,6 +41,19 @@ if not functions -q fisher
     fish -c fisher
 end
 
+# Base16 Shell
+if status --is-interactive
+    sh /Users/rhys/.base16-manager/chriskempson/base16-shell/scripts/base16-heetch.sh
+end
+
+# Load secrets into memory to stop them being present in my config dotfiles like fish_variables
+for i in (cat ~/.secrets/secrets.env)
+        if test (echo $i | sed -E 's/^[[:space:]]*(.).+$/\\1/g') != "#"
+                set arr (echo $i |tr = \n)
+                set -gx $arr[1] $arr[2]
+        end
+end
+
 
 kitty + complete setup fish | source
 
@@ -48,7 +61,6 @@ direnv hook fish | source
 
 alias rm trash-put
 alias vim nvim
-# Base16 Shell
-  if status --is-interactive
-    eval sh /Users/rhys/.base16-manager/chriskempson/base16-shell/scripts/base16-heetch.sh
-  end
+
+
+

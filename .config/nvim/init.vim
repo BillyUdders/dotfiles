@@ -35,6 +35,7 @@ let g:neomake_open_list = 2
 source ~/.config/nvim/colorscheme.vim
 hi Visual cterm=reverse ctermbg=NONE
 set termguicolors
+let base16colorspace=256
 
 " Text formatting
 set number relativenumber
